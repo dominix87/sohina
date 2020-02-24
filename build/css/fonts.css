@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('../fonts/GothamPro-Bold.eot');
+  src: url('../fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/GothamPro-Bold.woff2') format('woff2'),
+  url('../fonts/GothamPro-Bold.woff') format('woff'),
+  url('../fonts/GothamPro-Bold.ttf') format('truetype'),
+  url('../fonts/GothamPro-Bold.svg#GothamPro-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Light.eot');
+  src: url('../fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Gilroy-Light.woff2') format('woff2'),
+  url('../fonts/Gilroy-Light.woff') format('woff'),
+  url('../fonts/Gilroy-Light.ttf') format('truetype'),
+  url('../fonts/Gilroy-Light.svg#Gilroy-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaFuturisLightC';
+  src: url('../fonts/FuturaFuturisLightC.eot');
+  src: url('../fonts/FuturaFuturisLightC.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/FuturaFuturisLightC.woff2') format('woff2'),
+  url('../fonts/FuturaFuturisLightC.woff') format('woff'),
+  url('../fonts/FuturaFuturisLightC.ttf') format('truetype'),
+  url('../fonts/FuturaFuturisLightC.svg#FuturaFuturisLightC') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaDemiC';
+  src: url('../fonts/FuturaDemiC.eot');
+  src: url('../fonts/FuturaDemiC.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/FuturaDemiC.woff2') format('woff2'),
+  url('../fonts/FuturaDemiC.woff') format('woff'),
+  url('../fonts/FuturaDemiC.ttf') format('truetype'),
+  url('../fonts/FuturaDemiC.svg#FuturaDemiC') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaMediumC';
+  src: url('../fonts/FuturaMediumC.eot');
+  src: url('../fonts/FuturaMediumC.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/FuturaMediumC.woff2') format('woff2'),
+  url('../fonts/FuturaMediumC.woff') format('woff'),
+  url('../fonts/FuturaMediumC.ttf') format('truetype'),
+  url('../fonts/FuturaMediumC.svg#FuturaMediumC') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturisC';
+  src: url('../fonts/FuturisC-Bold.eot');
+  src: url('../fonts/FuturisC-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/FuturisC-Bold.woff2') format('woff2'),
+  url('../fonts/FuturisC-Bold.woff') format('woff'),
+  url('../fonts/FuturisC-Bold.ttf') format('truetype'),
+  url('../fonts/FuturisC-Bold.svg#FuturisC-Bold') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}

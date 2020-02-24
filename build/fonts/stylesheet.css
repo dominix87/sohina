@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'FuturisC';
+    src: url('subset-FuturisC-Bold.eot');
+    src: url('subset-FuturisC-Bold.eot?#iefix') format('embedded-opentype'),
+        url('subset-FuturisC-Bold.woff2') format('woff2'),
+        url('subset-FuturisC-Bold.woff') format('woff'),
+        url('subset-FuturisC-Bold.ttf') format('truetype'),
+        url('subset-FuturisC-Bold.svg#FuturisC-Bold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
