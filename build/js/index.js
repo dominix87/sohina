@@ -48,7 +48,66 @@ var Index =
     // Index.tinyAnimation();
     // Index.mobileSliderInit();
     Index.showAccordionItems();
+    Index.reviewSliderInit();
+    Index.graphicsSliderInit();
   },
+  graphicsSliderInit: function(){
+    var slider = $('.sliderBlock','.section7');
+
+    slider.slick({
+      arrows: true,
+      nextArrow: '<button class="next__arrow"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 492.004 492.004" xml:space="preserve"><path d="M484.14,226.886L306.46,49.202c-5.072-5.072-11.832-7.856-19.04-7.856c-7.216,0-13.972,2.788-19.044,7.856l-16.132,16.136c-5.068,5.064-7.86,11.828-7.86,19.04c0,7.208,2.792,14.2,7.86,19.264L355.9,207.526H26.58C11.732,207.526,0,219.15,0,234.002v22.812c0,14.852,11.732,27.648,26.58,27.648h330.496L252.248,388.926c-5.068,5.072-7.86,11.652-7.86,18.864c0,7.204,2.792,13.88,7.86,18.948l16.132,16.084c5.072,5.072,11.828,7.836,19.044,7.836c7.208,0,13.968-2.8,19.04-7.872l177.68-177.68c5.084-5.088,7.88-11.88,7.86-19.1C492.02,238.762,489.228,231.966,484.14,226.886z" fill="inherit"/></svg></button>',
+      prevArrow: '<button class="prev__arrow"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 492.004 492.004" xml:space="preserve"><path d="M484.14,226.886L306.46,49.202c-5.072-5.072-11.832-7.856-19.04-7.856c-7.216,0-13.972,2.788-19.044,7.856l-16.132,16.136c-5.068,5.064-7.86,11.828-7.86,19.04c0,7.208,2.792,14.2,7.86,19.264L355.9,207.526H26.58C11.732,207.526,0,219.15,0,234.002v22.812c0,14.852,11.732,27.648,26.58,27.648h330.496L252.248,388.926c-5.068,5.072-7.86,11.652-7.86,18.864c0,7.204,2.792,13.88,7.86,18.948l16.132,16.084c5.072,5.072,11.828,7.836,19.044,7.836c7.208,0,13.968-2.8,19.04-7.872l177.68-177.68c5.084-5.088,7.88-11.88,7.86-19.1C492.02,238.762,489.228,231.966,484.14,226.886z" fill="inherit"/></svg></button>',
+      dots: true,
+      mobileFirst: true,
+      customPaging: function (slider, i) {
+        var thumb = $(slider.$slides[i]).data();
+        return '<span>0' + (i + 1) + '</span>';
+      },
+      responsive:[{
+        breakpoint: 992,
+        settings: {
+        }
+      }]
+    });
+  },
+
+  reviewSliderInit: function(){
+    var slider = $('.sliderBlock','.section4'),
+      countBlock = $('.countBlock','.section4'),
+      arrowsHere = $('.arrowsHere','.section4'),
+      textBlock = $('.sliderTextBlock','.section4'),
+      textItem = $('.item',textBlock);
+
+    $(textItem).not(':first-child').hide();
+
+    slider.slick({
+      arrows: true,
+      nextArrow: '<button class="next__arrow"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 492.004 492.004" xml:space="preserve"><path d="M484.14,226.886L306.46,49.202c-5.072-5.072-11.832-7.856-19.04-7.856c-7.216,0-13.972,2.788-19.044,7.856l-16.132,16.136c-5.068,5.064-7.86,11.828-7.86,19.04c0,7.208,2.792,14.2,7.86,19.264L355.9,207.526H26.58C11.732,207.526,0,219.15,0,234.002v22.812c0,14.852,11.732,27.648,26.58,27.648h330.496L252.248,388.926c-5.068,5.072-7.86,11.652-7.86,18.864c0,7.204,2.792,13.88,7.86,18.948l16.132,16.084c5.072,5.072,11.828,7.836,19.044,7.836c7.208,0,13.968-2.8,19.04-7.872l177.68-177.68c5.084-5.088,7.88-11.88,7.86-19.1C492.02,238.762,489.228,231.966,484.14,226.886z" fill="inherit"/></svg></button>',
+      prevArrow: '<button class="prev__arrow"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 492.004 492.004" xml:space="preserve"><path d="M484.14,226.886L306.46,49.202c-5.072-5.072-11.832-7.856-19.04-7.856c-7.216,0-13.972,2.788-19.044,7.856l-16.132,16.136c-5.068,5.064-7.86,11.828-7.86,19.04c0,7.208,2.792,14.2,7.86,19.264L355.9,207.526H26.58C11.732,207.526,0,219.15,0,234.002v22.812c0,14.852,11.732,27.648,26.58,27.648h330.496L252.248,388.926c-5.068,5.072-7.86,11.652-7.86,18.864c0,7.204,2.792,13.88,7.86,18.948l16.132,16.084c5.072,5.072,11.828,7.836,19.044,7.836c7.208,0,13.968-2.8,19.04-7.872l177.68-177.68c5.084-5.088,7.88-11.88,7.86-19.1C492.02,238.762,489.228,231.966,484.14,226.886z" fill="inherit"/></svg></button>',
+      dots: false,
+      appendArrows: arrowsHere,
+      mobileFirst: true,
+      responsive:[{
+        breakpoint: 992,
+        settings: {
+        }
+      }]
+    });
+
+    $(slider).on('afterChange',function(e, slick, currentSlide){
+      var current = currentSlide + 1;
+      $(countBlock).html("0" + current + "<span>/0" + slick.slideCount + "</span>" );
+
+      $(textItem).hide();
+      $(textItem).eq(currentSlide).show();
+
+    });
+
+
+  },
+
+
 
   showAccordionItems: function(){
     var block = $('.accordionBlock', '.section11'),
