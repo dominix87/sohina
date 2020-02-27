@@ -48,9 +48,28 @@ var Index =
     Index.tinyAnimation();
     // Index.mobileSliderInit();
     Index.showAccordionItems();
+    Index.secretAccordion();
     Index.reviewSliderInit();
     Index.graphicsSliderInit();
   },
+
+  secretAccordion:function(){
+    var block = $('.wrapper', '.section3'),
+      item = $('.row0', block),
+      switcher = $('.switcher', item);
+
+    $('.ttl', item).on('click', function(){
+      $('.ttl', item).not(this).parents('.row0').removeClass('active').find('.hiddenText').slideUp('slow');
+      $(this).parents('.row0').addClass('active').find('.hiddenText').slideDown('slow');
+    });
+
+    $('.switcher', item).on('click', function(){
+      $('.switcher', item).not(this).parents('.row0').removeClass('active').find('.hiddenText').slideUp('slow');
+      $(this).parents('.row0').addClass('active').find('.hiddenText').slideDown('slow');
+
+    })
+  },
+
   graphicsSliderInit: function(){
     var slider = $('.sliderBlock','.section7');
 
