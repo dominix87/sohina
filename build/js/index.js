@@ -45,7 +45,7 @@ var Index =
 
     Index.magnificPopUp();
     Index.fixedHeader();
-    // Index.tinyAnimation();
+    Index.tinyAnimation();
     // Index.mobileSliderInit();
     Index.showAccordionItems();
     Index.reviewSliderInit();
@@ -152,8 +152,8 @@ var Index =
 
 
   tinyAnimation: function(){
-    $('.animate1').addClass("hidden").viewportChecker({
-      classToAdd: 'animated fadeInUp',
+    $('.line', '.schedule').viewportChecker({
+      classToAdd: 'run',
       offset: 200
     });
   },

@@ -4,18 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="shortcut icon" type="image/ico" sizes="256x256" href="img/favicon.ico">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta property="og:image" content="">
+    <link rel="shortcut icon" type="image/png" sizes="256x256" href="img/favicon.png">
+    <meta name="description" content="Подберем персонал за 9-16 рабочих дней с гарантией. В 99% случаев сотрудник окупает себя в 2 месяц работы. Среди клиентов: ПУМБ, АЛЛО, Ашан, АТБ и еще 100+ брендов.">
+    <meta name="keywords" content="подбор персонала, подбор персонала в Киеве, подбор персонала в Харькове, рекрутинг в Киеве, рекрутинг в Харькове, SohinAConsulting, Сохина Консалтинг">
+    <meta property="og:image" content="http://www.sohina.com.ua/img/OG.jpg">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="300">
     <meta property="og:image:height" content="300">
-    <meta property="og:url" content="">
-    <meta property="og:site_name" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
-    <title>Sohina</title>
+    <meta property="og:url" content="http://www.sohina.com.ua/">
+    <meta property="og:site_name" content="SohinAConsulting - Подбор персонала">
+    <meta property="og:title" content="SohinAConsulting — подбор персонала с гарантией в Харькове, Киеве и по СНГ ">
+    <meta property="og:description" content="Подберем персонал за 9-16 рабочих дней с гарантией. В 99% случаев сотрудник окупает себя в 2 месяц работы. Среди клиентов: ПУМБ, АЛЛО, Ашан, АТБ и еще 100+ брендов.">
+    <title>SohinAConsulting — подбор персонала с гарантией в Харькове, Киеве и по СНГ</title>
   </head>
   <body><svg xmlns="http://www.w3.org/2000/svg" id="mainSprite">
     <symbol xmlns="http://www.w3.org/2000/svg" id="telegram" viewBox="0 0 300 300">
@@ -145,11 +145,11 @@
               <h1 class="title">Подбор персонала с&nbsp;гарантией</h1>
               <div class="text content_text"><span>Всего за 9-16 рабочих дней</span><br> подберем в команду сотрудника,<br> который окупит себя со 2-ого<br> месяца работы</div>
               <div class="btnWrap">
-                <button class="btn">Подобрать персонал</button>
+                <button class="btn" onclick="Index.showFormSpec(this)" data-title="Подбор персонала с&amp;nbsp;гарантией" data-btnName="Оставить заявку" data-orderType="firstScreen">Подобрать персонал</button>
               </div>
             </div>
             <div class="videoBtnWrap">
-              <div class="text">Как мы решим<br> вашу задачу<br> (2 мин)</div><a class="playBtn" href="https://www.youtube.com/watch?v=ddulhOXeOBI">
+              <div class="text">Как мы решим<br> вашу задачу<br> (2 мин)</div><a class="playBtn openVideo" href="https://www.youtube.com/watch?v=ddulhOXeOBI">
                     <svg class="icon icon-playBtn ">
                       <use xlink:href="#playBtn"></use>
                     </svg></a>
@@ -202,7 +202,7 @@
           <div class="secondFloor">
             <div class="itemsContent content_text">
               <div class="item">
-                <div class="title"><span>Размещенные вакансии</span></div>
+                <div class="title"><span>Размещенные<br class='later2'> вакансии</span></div>
                 <div class="text">на job-сайтах, не приносят результат</div>
               </div>
               <div class="item">
@@ -210,19 +210,19 @@
                 <div class="text">прийти на собеседование</div>
               </div>
               <div class="item">
-                <div class="title"><span>Сильные специалисты</span></div>
+                <div class="title"><span>Сильные<br class='later2'> специалисты</span></div>
                 <div class="text">не выбирают вашу компанию</div>
               </div>
               <div class="item">
-                <div class="title"><span>Приходится выбирать из тех, кто есть</span></div>
+                <div class="title"><span>Приходится выбирать<br class='later2'> из тех, кто есть</span></div>
                 <div class="text">а не тех, кто реально будет полезен бизнесу</div>
               </div>
               <div class="item">
-                <div class="title"><span>Нанятые люди часто не справляются</span></div>
+                <div class="title"><span>Нанятые люди<br class='later2'> часто не справляются</span></div>
                 <div class="text">со своими обязанностями</div>
               </div>
               <div class="item">
-                <div class="title"><span>Тратите массу времени, сил, денег</span></div>
+                <div class="title"><span>Тратите массу<br class='later2'> времени, сил, денег</span></div>
                 <div class="text">на рекрутинг, а он даже не окупается.</div>
               </div>
             </div>
@@ -311,7 +311,7 @@
             </div>
           </div>
           <div class="btnWrap">
-            <button class="btn">Подобрать сотрудника</button>
+            <button class="btn" onclick="Index.showFormSpec(this)" data-title="Подбор персонала с&amp;nbsp;гарантией" data-btnName="Оставить заявку" data-orderType="fourthScreen">Подобрать сотрудника</button>
           </div>
         </div>
       </section>
@@ -358,16 +358,16 @@
           </div>
           <div class="thirdFloor">
             <div class="leftSide">
-              <h2 class="title">Что говорят наши клиенты</h2>
+              <h2 class="title">Что говорят<br class='later2'> наши клиенты</h2>
               <div class="sliderBlock">
                 <div class="item">
-                  <div class="img_wrap"><a class="el"><span class="playBtn">
+                  <div class="img_wrap"><a class="el openVideo" href="https://www.youtube.com/watch?v=8DYZ2EGKess"><span class="playBtn">
                             <svg class="icon icon-playBtn ">
                               <use xlink:href="#playBtn"></use>
                             </svg></span><img src="img/videoStub.jpg" alt=""></a></div>
                 </div>
                 <div class="item">
-                  <div class="img_wrap"><a class="el"><span class="playBtn">
+                  <div class="img_wrap"><a class="el openVideo" href="https://www.youtube.com/watch?v=8DYZ2EGKess"><span class="playBtn">
                             <svg class="icon icon-playBtn ">
                               <use xlink:href="#playBtn"></use>
                             </svg></span><img src="img/videoStub.jpg" alt=""></a></div>
@@ -378,11 +378,11 @@
               <div class="countBlock">01 <span>/02</span></div>
               <div class="sliderTextBlock">
                 <div class="item">
-                  <div class="purpleText">«Последние полгода подбираю персонал только с&nbsp;SohinAConsulting. Ребята всегда работают быстро, с&nbsp;гарантиями, никаких вопросов и сложностей не&nbsp;возникает. Рекомендую»</div>
+                  <div class="purpleText">«Последние полгода подбираю<br class='later2'> персонал только с&nbsp;SohinAConsulting.<br class='later2'> Ребята всегда работают быстро, с&nbsp;гарантиями, никаких вопросов и&nbsp;сложностей не&nbsp;возникает.<br class='later2'> Рекомендую»</div>
                   <div class="nameDuty">Виталий Юрченко,<br> руководитель<br> установочного центра</div>
                 </div>
                 <div class="item">
-                  <div class="purpleText">«Последние полгода подбираю персонал только с&nbsp;SohinAConsulting. Ребята всегда работают быстро, с&nbsp;гарантиями, никаких вопросов и сложностей не&nbsp;возникает. Рекомендую»</div>
+                  <div class="purpleText">«Последние полгода подбираю<br class='later2'> персонал только с&nbsp;SohinAConsulting.<br class='later2'> Ребята всегда работают быстро, с&nbsp;гарантиями, никаких вопросов и&nbsp;сложностей не&nbsp;возникает.<br class='later2'> Рекомендую»</div>
                   <div class="nameDuty">Виталий Юрченко2,<br> руководитель<br> установочного центра</div>
                 </div>
               </div>
@@ -611,7 +611,7 @@
                   <div class="text content_text"><span>Успешно подобрали</span><br> менеджеров по продажам<br> для наших клиентов</div>
                 </div>
                 <div class="btnWrap">
-                  <button class="btn">Хоти так же</button>
+                  <button class="btn" onclick="Index.showFormSpec(this)" data-title="Подбор персонала с&amp;nbsp;гарантией" data-btnName="Оставить заявку" data-orderType="seventhScreen">Хоти так же</button>
                 </div>
               </div>
             </div>
@@ -630,10 +630,10 @@
               </ul>
               <div class="priceBlock">
                 <div class="priceTitle">Стоимость:</div>
-                <div class="price">от <span>11400</span> грн.</div>
+                <div class="price">от <span>11 400</span> грн.</div>
               </div>
               <div class="btnWrap">
-                <button class="btn">Подобрать персонал</button>
+                <button class="btn" onclick="Index.showFormSpec(this)" data-title="Подбор персонала&lt;br&gt; пакета «Бизнес»" data-btnName="Оставить заявку" data-orderType="firstScreen">Подобрать персонал</button>
               </div>
             </div>
             <div class="item">
@@ -646,10 +646,10 @@
               </ul>
               <div class="priceBlock">
                 <div class="priceTitle">Стоимость:</div>
-                <div class="price">от <span>11400</span> грн.</div>
+                <div class="price">от <span>16 100</span> грн.</div>
               </div>
               <div class="btnWrap">
-                <button class="btn">Подобрать персонал</button>
+                <button class="btn" onclick="Index.showFormSpec(this)" data-title="Подбор персонала&lt;br&gt; пакета «VIP»" data-btnName="Оставить заявку" data-orderType="firstScreen">Подобрать персонал</button>
               </div>
             </div>
             <div class="item">
@@ -660,12 +660,11 @@
                 <li><span>Оценим риски</span> ухода ключевых сотрудников.</li>
                 <li>Подберем оптимальные <span>рычаги для мотивации</span> и&nbsp;управления важными кадрами.</li>
               </ul>
-              <div class="priceBlock">
-                <div class="priceTitle">Стоимость:</div>
-                <div class="price">от <span>11400</span> грн.</div>
-              </div>
+              <!--.priceBlock-->
+              <!--  .priceTitle Стоимость:-->
+              <!--  .price от <span>11400</span> грн.-->
               <div class="btnWrap">
-                <button class="btn">Подобрать персонал</button>
+                <button class="btn" onclick="Index.showFormSpec(this)" data-title="Услугу&lt;br&gt; «диагностика сотрудников»" data-btnName="Оставить заявку" data-orderType="firstScreen">Получить консультацию</button>
               </div>
             </div>
           </div>
@@ -896,7 +895,7 @@
                       <use xlink:href="#instagram"></use>
                     </svg></a></div>
             <div class="footerElement callBack">
-              <button class="callBackBtn">Заказать звонок</button>
+              <button class="callBackBtn" onclick="Index.callBackForm()">Заказать звонок</button>
             </div>
           </div>
         </div>
@@ -916,7 +915,6 @@
       <div class="orderPanel" id="mainForm">
         <div class="wrapper">
           <p class="title">Заказать звонок</p>
-          <p class="desc">для заказа заполните форму ниже</p>
           <form onsubmit="Index.sendInit(this);return false" novalidate>
             <input type="hidden" name="project_name" value="Mazur">
             <input type="hidden" name="admin_email" value="">
@@ -947,14 +945,14 @@
               <input placeholder="Телефон" name="phone" type="tel" required>
             </div>
             <div class="btnWrap">
-              <button class="btn">Отправить</button>
+              <button class="btn">Получить консультацию</button>
             </div>
           </form>
         </div>
       </div>
       <div class="orderPanel" id="callBackForm">
         <div class="wrapper">
-          <p class="title content_title">Для замовлення<br> дзвінка заповніть форму</p>
+          <p class="title">Заказать звонок</p>
           <form onsubmit="Index.sendInit(this);return false" novalidate>
             <input type="hidden" name="project_name" value="Mazur">
             <input type="hidden" name="admin_email" value="">
@@ -979,17 +977,13 @@
             <input type="hidden" name="click_id" value="&lt;?php echo $data[&quot;click_id&quot;]?&gt;">
             <input type="hidden" name="affilliate_id" value="&lt;?php echo $data[&quot;affiliate_id&quot;]?&gt;">
             <div class="inputWrapper">
-              <input name="name" type="text" required>
+              <input placeholder="Имя" name="name" type="text" required>
             </div>
             <div class="inputWrapper">
-              <input name="phone" type="tel" required>
+              <input placeholder="Телефон" name="phone" type="tel" required>
             </div>
             <div class="btnWrap">
-              <button class="btn"><span>Перетелефонуйте мені</span>
-                    <svg class="icon icon-rightArrow ">
-                      <use xlink:href="#rightArrow"></use>
-                    </svg>
-              </button>
+              <button class="btn">Получить консультацию</button>
             </div>
           </form>
         </div>
